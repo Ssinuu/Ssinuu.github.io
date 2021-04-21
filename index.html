@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/268d419289.js" crossorigin="anonymous"></script>
+
+    <title>GoldenHeart.com</title>
+</head>
+
+<body>
+
+    <!-- nav-bar  -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./logo.png" alt="" height="70px"></a>
+            <p class="text-success" style="margin-top: 18px;">ମାନବିକତା ଆଡକୁ ପାଦେ</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./Aboutus.html">About Us</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./Our_Team.html">Out Team</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./Faqs.html">Faq's</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galary.html">Galary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Our_services.html">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Join_us.html">Join Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Donate_now.html"><button class="btn btn-outline-success">Donate Now</button></a>
+                    </li>
+                </ul>
+                <form class="d-flex d">
+                    <li>
+                        <a href="#!"><i class="fab fa-facebook fa-lg " aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fab fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="far fa-envelope fa-lg" aria-hidden="true"></i></a>
+                    </li>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- image  -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="././homeimg/people.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="././homeimg/tree_plant.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="././homeimg/clean.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- data  -->
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-2"></div>
+        <div class="col-8 text-center" style="font-family: 'Courier New', Courier, monospace;">
+            <h2 class="fw-bold">Today, Over a billion people live in slums.</h2>
+            <h2 class="fw-bold"> 24% of the world’s population.</h2>
+            <p class="fw-bold" style="margin-top: 30px;">We work over vast the area around all over Odish to eliminate
+                poverty. We work to provide
+                proper hygiene and education for the children living in the slums.</p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+    <!-- image and logo  -->
+    <div class="row">
+        <!-- <div class="col-2"></div> -->
+        <div class="col-12">
+            <div class="row text-center">
+                <div class="col-4">
+                    <div class="one">
+                        <img src="././homeimg/smalllogo1.png" class="round" alt="">
+                    </div>
+                    <h2 class="text-body">
+                        Help Others
+                    </h2>
+                </div>
+                <div class="col-4">
+                    <div class="two">
+                        <img src="././homeimg/smalllogo2.png" class="round" alt="">
+                    </div>
+                    <h2 class="text-body">
+                        Live Together
+                    </h2>
+                </div>
+                <div class="col-4">
+                    <div class="three">
+                        <img src="././homeimg/smalllogo3.png" class="round" alt="">
+                    </div>
+                    <h2 class="text-body">
+                        Plant Tree
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-2"></div> -->
+    </div>
+    <!-- end  -->
+
+    <h1 class="text-center text-success bg-dark" style="margin-top: 30px; margin-bottom: 30px;">Our Services</h1>
+
+    <!-- photo section start  -->
+
+    <div class="container photo">
+        <div class="row row-cols-1 row-cols-md-2 g-4 bg-success">
+            <div class="col">
+                <div class="card">
+                    <img src="./image/blood.jpg" class="card-img-top " alt="..." width="100%" height="250px">
+                    <div class="card-body text-center">
+                        <hr>
+                        <h3 class="card-title title ">Donate Blood</h3>
+                        <hr>
+                        <p class="card-text">Give To People From What God Has Provided You. It Will Surely Come Back To
+                            You
+                            With Greater Value.<br>Be Grateful And Donate Blood.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./image/orphan.jpg" class="card-img-top " alt="..." width="100%" height="250px">
+                    <div class="card-body text-center">
+                        <hr>
+                        <h3 class="card-title title">Help Orphans</h3>
+                        <hr>
+                        <p class="card-text">What difference does it make to the dead, the orphans, and the homeless,
+                            whether the mad destruction is wrought under the name of totalitarianism or the holy name of
+                            liberty or democracy?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./image/swachabharat.jpg" class="card-img-top " alt="..." width="100%" height="250px">
+                    <div class="card-body text-center">
+                        <hr>
+                        <h3 class="card-title title">Keep Our Society Cleen</h3>
+                        <hr>
+                        <p class="card-text">Cleaning up the country cannot be the sole responsibility of sweepers. Do
+                            citizens have no role in this? We have to change this mindset. This is the right time. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./image/treeplant1.jpg" class="card-img-top " alt="..." width="100%" height="250px">
+                    <div class="card-body text-center">
+                        <hr>
+                        <h3 class="card-title title">Plant Tree</h3>
+                        <hr>
+                        <p class="card-text">The best friend on earth of man is the tree. When we use the tree
+                            respectfully
+                            and economically, we have one of the greatest resources on the earth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- volunter  -->
+
+    <div class="baground ">
+        <img src="./image/volunter.png" class="img-fluid" alt="" width="100%" height="auto">
+    </div>
+    <div class="vol">
+        <div class="card text-center">
+
+            <div class="card-body">
+                <h2 class="title text-success">We are always waiting for your helping hands,<br>Human service is the
+                    greatest religion</h2>
+                <a href="#" class=" join btn  btn-outline-success">Join With Us</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer  -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark text-white stylish-color-dark pt-4">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><img src="logo.png" alt="" height="70px">
+                        Golden Heart (ସେବା ହିଁ ଧର୍ମ)</h5>
+                    <p>DonateFund is a library of Crowdfunding and Charity templates with predefined elements which
+                        helps you to build your own site. ibrary of Crowdfunding and Charity templates with predefined .
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <iframe height="200px" width="200px" src="https://www.youtube.com/embed/-J51b_C0ty8"
+                        title="YouTube video player">
+                    </iframe>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About Us</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="hover">Our Services</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="hover">Our Team</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="hover">Faq's</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="hover">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="hover">Volunter</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Social Media</h5>
+
+                    <ul class="list-unstyled text-white social">
+                        <li>
+                            <a href="#!"><i class="fab fa-facebook fa-lg text-primary" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#!"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#!"><i class="fab fa-twitter-square fa-lg text-primary" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#!"><i class="far fa-envelope fa-lg" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="container">
+
+            <div class="footer-copyright  py-3 bg-dark text-success">©Goldenheart <br>
+                <h5>
+                    Designed By: <a href="https://www.instagram.com/who_ssinu/" class="text-white  title"> Srinibas
+                        Prusty</a>
+                </h5>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

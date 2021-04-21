@@ -1,0 +1,43 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.title{
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+
+
+.photo{
+    margin-bottom: 50px;
+}
+
+.page-footer a{
+    text-decoration: none;
+    color: green;
+}
+
+.hover:hover{
+    color: white;
+}
+
+
+  .fa-instagram {
+    color: RGB( 138, 58, 185);
+  }
+
+  .fa-envelope {
+    color:rgb(218, 25, 25);
+  }
+
+  li a:hover ::before{
+    color: green;
+  }
+  
+  .social{
+    display: inline-flex;
+    gap: 15px;
+}
